@@ -8,7 +8,7 @@ ARG VERSION
 RUN <<EOF
   sudo ln -sf /usr/bin/opam-2.1 /usr/bin/opam
   opam repository add satysfi-external https://github.com/gfngfn/satysfi-external-repo.git
-  opam repository add satyrographos https://github.com/kyori19/satyrographos-repo.git
+  opam repository add satyrographos https://github.com/na4zagin3/satyrographos-repo.git
   opam update
   opam install satysfi.${VERSION} satysfi-dist.${VERSION} satyrographos
 EOF
