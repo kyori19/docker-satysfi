@@ -11,6 +11,8 @@ RUN <<EOF
   opam repository add satyrographos https://github.com/na4zagin3/satyrographos-repo.git
   opam update
   opam install satysfi.${VERSION} satysfi-dist.${VERSION} satyrographos
+  git config --unset --global user.name
+  git config --unset --global user.email
 EOF
 
 WORKDIR /work
