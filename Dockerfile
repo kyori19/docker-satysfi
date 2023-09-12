@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1.3-labs
-
 FROM ocaml/opam:debian-ocaml-4.14
 
 COPY docker-entrypoint.sh /usr/local/bin/
