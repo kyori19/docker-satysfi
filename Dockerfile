@@ -8,7 +8,7 @@ RUN <<EOF
   opam repository add satysfi-external https://github.com/gfngfn/satysfi-external-repo.git
   opam repository add satyrographos https://github.com/na4zagin3/satyrographos-repo.git
   opam update
-  opam install satysfi.${VERSION} satysfi-dist.${VERSION} satyrographos
+  opam install camlimages.5.0.4-1 satysfi.${VERSION} satysfi-dist.${VERSION} satyrographos
   git config --unset --global user.name
   git config --unset --global user.email
 EOF
